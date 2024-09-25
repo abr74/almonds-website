@@ -17,12 +17,12 @@ export default function Footer(){
             </div>
             <div id='footer-right-column' className={style.right}>
                 <div id='footer-right-column-div' className={style.rightColumnDiv}>
-                    <span>
+                    <div style={{display: "justify"}}>
                         {/* These will be links */}
                         <h3>Email Address</h3>
                         <h3>Social Media Icons or just Text</h3>
                         <h3>Phone Number</h3>
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>

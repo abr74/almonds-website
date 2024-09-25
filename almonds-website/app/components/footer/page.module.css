@@ -11,12 +11,12 @@
 
 .rightColumnDiv {
     padding-right: 7vw;
+    text-align: end;
 }
 
 .left {
     position: left;
     float: left;
-    background: red;
     width: 50%;
 }
 
@@ -24,6 +24,5 @@
     position: right;
     text-align: right;
     float: right;
-    background: blue;
     width: 50%;
 }
