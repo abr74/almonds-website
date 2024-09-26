@@ -13,17 +13,17 @@ export default function TopNavBar(){
                 </NavbarBrand>
                 <NavbarContent className="hidden sm:flex gap-4">
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link color="foreground" href="../pages/page_1">
                             <u>Page 1</u>
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link color="foreground" href="../pages/page_2">
                             <u>Page 2</u>
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link color="foreground" href="../pages/page_3">
                             <u>Page 3</u>
                         </Link>
                     </NavbarItem>

@@ -1,16 +1,13 @@
 "use client"
 
-import Header from "./components/topNavBar/page";
-import Footer from "./components/footer/page";
+import Page01 from "./pages/page_1/page";
 
 export default function Home() {
   return (
 
     <>
     
-      <Header/>
-      <div>Almond's Website</div>
-      <Footer/>
+      <Page01/>
     
     </>
 
