@@ -1,6 +1,6 @@
 "use client"
 
-import Header from "./components/header/page";
+import Header from "./components/topNavBar/page";
 import Footer from "./components/footer/page";
 
 export default function Home() {
