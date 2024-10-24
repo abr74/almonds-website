@@ -11,8 +11,8 @@
 }
 
 .rightColumnDiv {
-    padding-right: 7vw;
-    text-align: end;
+    padding-left: 25vw;
+    text-align: start;
 }
 
 .left {
@@ -27,3 +27,11 @@
     float: right;
     width: 50%;
 }
+
+/* .LinkedIn {
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(../../images/LI-In-Bug.png);
+    overflow: hidden;
+} */

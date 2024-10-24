@@ -1,27 +1,27 @@
 "use client"
 import { Divider } from "@nextui-org/react"
 import style from "./page.module.css"
+import Image from "next/image"
 export default function Footer(){
     return (
 
         <div id='footer-parent' className={style.footerParent}>
             <Divider className="my-4"/>
-            <div id='footer-left-column' className={style.left}>
-                <div id='footer-left-column-div' className={style.leftColumnDiv}>
-                    <span>
-                        <h3><b>Name</b></h3>
-                        <h3>Street Name</h3>
-                        <h3>City Name, State, Zipcode, Country</h3>
-                    </span>
-                </div>
-            </div>
             <div id='footer-right-column' className={style.right}>
                 <div id='footer-right-column-div' className={style.rightColumnDiv}>
                     <div style={{display: "justify"}}>
                         {/* These will be links */}
-                        <h3>Email Address</h3>
-                        <h3>Social Media Icons or just Text</h3>
-                        <h3>Phone Number</h3>
+                        <div className={style.leftColumnDiv}>
+                            <span>
+                                <h3><b>Contact</b></h3>
+                                <h3><u><a href="">LinkedIn</a></u> <u><a href="">Instagram</a></u></h3>
+                                <h3>ray2852@gmail.com</h3>
+                                <h3>929-305-7361</h3>
+                            </span>
+                            
+                        </div>
+                        {/* <div className={style.LinkedIn}></div> */}
+                        
                     </div>
                 </div>
             </div>

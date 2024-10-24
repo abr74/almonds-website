@@ -2,7 +2,6 @@
     padding-top: 20vh;
     padding-left: 5vw;
     width: fit-content;
-
 }
 
 .SidebarItem {
@@ -11,9 +10,4 @@
 
 .SidebarItem:hover {
     color: gray;
-}
-
-.ImageSlideshow {
-    width: 80vw;
-    padding-left: 10vw;
 }
